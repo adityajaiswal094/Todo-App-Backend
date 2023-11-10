@@ -2,8 +2,9 @@
 
 ## About this application
 
-This is a simple todo application where you can add, edit or delete your to-do tasks. This is application has 2 parts. One is this Node.js application which uses PostgreSQL as its DB and the other is a React.js fronted application.
-This Nodejs application can also be used for testing the APIs as a standalone application with the help of Postman, without the need of the frontend application.
+This is a simple todo application where you can add, edit or delete your to-do tasks. This application has 2 parts. One is this Node.js application which uses PostgreSQL as its DB and the other is a React.js fronted application.
+
+This Node.js application can also be used as a standalone application for testing the APIs with the help of Postman, without the need of the frontend application.
 
 ## Pre-requisites
 
@@ -17,4 +18,4 @@ This Nodejs application can also be used for testing the APIs as a standalone ap
 3. After setting up the postgres DB, open command prompt and log into your DB and run the 2 queries present in `database.sql` file to create a database and a table respectively.
 4. Now, come back to the application and set up your postgres config in the `db.js` file.
 5. Run `npm install` to install all the necessary packages.
-6. Run `npm start` to run the application.
+6. Run `npm run dev` to run the application.
